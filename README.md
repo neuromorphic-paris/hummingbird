@@ -2,12 +2,13 @@
 
 Hummingbird interfaces with a 608 x 684 [LightCrafter](http://www.ti.com/tool/DLPLIGHTCRAFTER). It provides two toolchains: the first one, __generate__, losslessly converts a 1440 fps video stream to a 60 fps, H.264-encoded color video. The second, __play__, decodes and sends the video created with the first toolchain to a LightCrafter. Assuming that the latter is properly configured, it will show the original 1440 fps video stream.
 
-![generate_toolchain](figures/generate_toolchain.png)
+![device](figures/device.png)
 
-![play_toolchain](figures/play_toolchain.png)
+![toolchains](figures/toolchains.png)
 
 ## Table of Contents
 - [Download](#download)
+- [Parts](#parts)
 - [PsychoPy](#generate-stimuli-with-psychopy)
 - [C++ apps](#c++-apps)
   - [Dependencies](#dependencies)
@@ -30,6 +31,10 @@ To download Hummingbird, run the command:
 ```sh
 git clone https://github.com/neuromorphic-paris/hummingbird.git
 ```
+
+# Parts
+
+3D models of the Hummingbird 45 degrees stand and wheel can be found in the *parts* directory, in STL format. *parts/hummingbird.step* contains all the printable and non-printable parts, and can be used as a reference to assemble the kit.
 
 # PsychoPy
 
